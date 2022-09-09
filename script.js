@@ -22,4 +22,3 @@ function incluir() {
     alert("Endereço de filme inválido") }
   document.getElementById("url").value = "";
 }
-
