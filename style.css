@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto Mono", monospace;
   text-align: center;
-  background-image: url("https://media1.giphy.com/media/3o7aCRBaUv3Sng0rTy/giphy.gif");
+  background-image: url("https://im4.ezgif.com/tmp/ezgif-4-c6ef0b0b12.gif");
   background-color: #000000;
   background-size: cover;
   background-position: center top;
@@ -83,6 +83,7 @@ img:hover {
   overflow: hidden;
 }
 
+
 .popup {
   font-family: montserrat;
   font-size: 25px;
@@ -94,7 +95,7 @@ img:hover {
   left: 0; right: 0;
   margin: auto;
   width: 400px;
-  height: 180px;
+  height: 190px;
   padding: 15px;
   border: solid 1px #dc1a28;
   background: #000000;
@@ -122,4 +123,38 @@ input {
   text-transform: uppercase;
   overflow: hidden;
   transition: 1s all ease;
+}
+
+.btn2{
+  position: relative;
+  display: inline-block;
+  color: white;
+  font-size: 14px;
+  font-family: "montserrat";
+  text-decoration: none;
+  margin: 30px 0;
+  border: 2px solid #dc1a28;
+  padding: 14px 60px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+}
+.btn2::before{
+  background: #dc1a28;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+}
+
+.btn3::before{
+  width: 0%;
+  height: 100%;
+}
+
+.btn3:hover::before{
+  width: 100%;
 }
